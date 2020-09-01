@@ -1,13 +1,19 @@
 {
   "name": "prueba-use",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@ull-esit-pl-1920/p7-t3-egg-2-daviddvg7": "^1.0.6"
+    "@ull-esit-pl-1920/p7-t3-egg-2-daviddvg7": "^1.1.1",
+    "@ull-esit-pl/example2test": "^1.0.40",
+    "mocha": "^7.1.1",
+    "node-fetch": "^2.6.0",
+    "nyc": "^15.0.1",
+    "should": "^13.2.3",
+    "sinon": "^9.0.2"
   },
   "repository": {
     "type": "git",
