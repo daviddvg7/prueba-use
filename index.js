@@ -5,5 +5,4 @@ topEnv['hola'] = function() { console.log("hola");}
 let specialForms = EGG.specialForms;
 specialForms['adios'] = function () {console.log("adios")}
 
-console.log(topEnv, specialForms);
 module.exports = {topEnv, specialForms}
